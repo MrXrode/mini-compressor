@@ -1,0 +1,13 @@
+# จำเป็น
+pillow>=10.0.0
+
+# ลากไฟล์มาวาง (ไม่ลงก็ใช้ปุ่มเลือกไฟล์แทนได้)
+tkinterdnd2>=0.4.0
+
+# เปิดไฟล์ .heic จาก iPhone (ไม่บังคับ)
+pillow-heif>=0.13.0
+
+# หมายเหตุ: โหมดวิดีโอต้องมี ffmpeg ในเครื่องด้วย ติดตั้งแยกจาก pip
+#   Windows : winget install ffmpeg
+#   macOS   : brew install ffmpeg
+#   Linux   : sudo apt install ffmpeg

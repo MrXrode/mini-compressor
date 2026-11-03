@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# ไฟล์ตั้งค่าของแอป (เก็บค่าส่วนตัวของแต่ละเครื่อง ไม่ควรขึ้น git)
+.mini_compressor.json
+
+# ไฟล์ผลลัพธ์จากการทดสอบ
+*.zip.0*
+out/
+output/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
